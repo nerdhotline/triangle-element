@@ -1,0 +1,25 @@
+{
+  "name": "triangle-x",
+  "version": "1.0.0",
+  "description": "\"The Triangle's new theme\"",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://thetriangle.visualstudio.com/Triangle%20X/_git/triangle-x"
+  },
+  "author": "\"The Triangle Development Team\"",
+  "license": "ISC"
+}
