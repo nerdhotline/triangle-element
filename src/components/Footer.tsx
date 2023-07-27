@@ -1,6 +1,6 @@
-export const Footer = (props: {}) => {
+export const Footer = (_props: {}) => {
     return (<footer id="colophon" className="footer-wrapper">
-	<div className="footer-container">
+	<div className="footer-container border">
 		<div className="footer-branding">
 			<div className="footer-logo">
 				<a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
@@ -11,7 +11,7 @@ export const Footer = (props: {}) => {
 			<div className="footer-social">
 				<a href="https://www.facebook.com/drexel.triangle/" target="_blank">
 					<span className="fa-stack fa-1x">
-						{/* <i className="fa fa-circle fa-stack-2x" style="color: #3b5998;"></i> */}
+						<i className="fa fa-circle fa-stack-2x" style={{"color": "#3b5998"}}></i>
 						<i className="fa fa-facebook fa-stack-1x"></i>
 					</span>
 				</a>
