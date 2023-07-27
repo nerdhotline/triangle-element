@@ -1,6 +1,6 @@
 export const Footer = (_props: {}) => {
     return (<footer id="colophon" className="footer-wrapper">
-	<div className="footer-container border">
+	<div className="footer-container">
 		<div className="footer-branding">
 			<div className="footer-logo">
 				<a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
