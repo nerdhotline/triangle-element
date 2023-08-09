@@ -1,6 +1,7 @@
 import type { Preview } from "@storybook/react";
 
-import "../TriangleX/style.css"
+import "../TriangleX/style.css";
+import "../src/index.css";
 
 const preview: Preview = {
   parameters: {
