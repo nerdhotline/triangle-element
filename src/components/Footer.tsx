@@ -1,10 +1,13 @@
-export const Footer = (_props: {}) => {
+import { FC } from "react";
+import MastheadImg from "../assets/logo-black.svg";
+
+export const Footer = (props: {menu: Array<FC>}) => {
     return (<footer id="colophon" className="footer-wrapper">
 	<div className="footer-container">
 		<div className="footer-branding">
 			<div className="footer-logo">
 				<a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
-					<img src="<?php echo get_template_directory_uri() . '//images/logo-black.svg'; ?>"></img>
+					<img src={MastheadImg}></img>
 				</a>
 			</div>
 			
@@ -17,7 +20,7 @@ export const Footer = (_props: {}) => {
 				</a>
 				<a href="https://twitter.com/drexeltriangle" target="_blank">
 					<span className="fa-stack fa-1x">
-						{/* <i className="fa fa-circle fa-stack-2x" style="color: #00acee;"></i> */}
+						<i className="fa fa-circle fa-stack-2x" style={{"color": "#00acee"}}></i>
 						<i className="fa fa-twitter fa-stack-1x"></i>
 					</span>
 				</a>
@@ -29,13 +32,13 @@ export const Footer = (_props: {}) => {
 				</a>
 				<a href="https://www.youtube.com/user/DrexelTriangle" target="_blank">
 					<span className="fa-stack fa-1x">
-						{/* <i className="fa fa-circle fa-stack-2x" style="color: #e52d27;"></i> */}
+						<i className="fa fa-circle fa-stack-2x" style={{"color": "#e52d27"}}></i>
 						<i className="fa fa-youtube-play fa-stack-1x"></i>
 					</span>
 				</a>
 				<a href="http://thetriangle.us2.list-manage.com/subscribe/post?u=6eb4aab81745d3436b16a6181&id=7389750c95" target="_blank">
 					<span className="fa-stack fa-1x">
-						{/* <i className="fa fa-circle fa-stack-2x" style="color: #07294D;"></i> */}
+						<i className="fa fa-circle fa-stack-2x" style={{"color": "#07294D"}}></i>
 						<i className="fa fa-envelope-o fa-stack-1x"></i>
 					</span>
 				</a>
@@ -59,7 +62,7 @@ export const Footer = (_props: {}) => {
 	</div>
 	
 	<div className="footer-copyright">
-		{/* &copy<?php echo date("Y"); ?> The Triangle. All rights are reserved, except where otherwise noted. */}
+		©{new Date().getFullYear()} The Triangle. All rights are reserved, except where otherwise noted
 	</div>
 	
 	<div className="footer-disclaimer">
