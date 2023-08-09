@@ -7,26 +7,27 @@ export const PollsWidget3 = (_props: {}) => {
 
             <div id="polls-173-ans" className="wp-polls-ans">
                 <ul className="wp-polls-ul">
-                    <li>Saxbys
+                    <li>consectetur
                         <small>(40%)</small>
                         <div className="pollbar" style = {{"width": "40%"}} title="Saxbys (40%)"></div>
                     </li>
-                    <li>Board and Brew
+                    <li>adipiscing elit
                         <small>(31%)</small>
                         <div className="pollbar" style = {{"width": "31%"}} title="Board and Brew (31%)"></div>
                     </li>
-                    <li>Green Line Cafe
+                    <li>sed do eiusmod 
                         <small>(12%)</small>
                         <div className="pollbar" style = {{"width": "12%"}} title="Green Line Cafe (12%)"></div>
                     </li>
-                    <li><strong>Greek From Greece <small>(10%)</small></strong>
+                    <li>tempor incididunt
+                        <small>(10%)</small>
                         <div className="pollbar" style = {{"width": "10%"}} title="You Have Voted For This Choice - Greek From Greece (10%)"></div>
                     </li>
-                    <li>Elixir
+                    <li>labore dolore
                         <small>(4%)</small>
                         <div className="pollbar" style = {{"width": "4%"}} title="Elixir (4%)"></div>
                     </li>
-                    <li>Arterial Coffee
+                    <li>magna aliqua
                         <small>(4%)</small>
                         <div className="pollbar" style = {{"width": "4%"}} title="Arterial Coffee (4%)"></div>
                     </li>
